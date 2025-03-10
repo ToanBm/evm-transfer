@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # GitHub repository URL
-REPO_URL="https://github.com/dante4rt/evm-auto-transfer.git"
-FOLDER_NAME="evm-auto-transfer"
+REPO_URL="https://github.com/ToanBm/evm-transfer.git"
+FOLDER_NAME="evm-transfer"
 
 # Clone the repository
 echo "🚀 Cloning repository..."
