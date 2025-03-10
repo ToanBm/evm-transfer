@@ -1,16 +1,5 @@
 #!/bin/bash
 
-# GitHub repository URL
-REPO_URL="https://github.com/ToanBm/evm-transfer.git"
-FOLDER_NAME="evm-transfer"
-
-# Clone the repository
-echo "🚀 Cloning repository..."
-git clone $REPO_URL
-
-# Navigate into the project directory
-cd $FOLDER_NAME || exit
-
 # Install dependencies
 echo "📦 Installing dependencies..."
 npm install
