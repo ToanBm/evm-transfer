@@ -82,7 +82,7 @@ const main = async () => {
         } catch (error) {
           console.log(colors.red(`❌ Failed to check balance: ${error.message}`));
         }
-        await sleep(5000);
+        await sleep(Math.random() * (20000 - 10000) + 10000); // Random từ 10s đến 20s
       }
     };
 
@@ -94,7 +94,7 @@ const main = async () => {
       console.log(colors.white(`\n🆕 Generated address ${i}: ${receiverAddress}`));
 
       const amountToSend = ethers.parseUnits(
-        (Math.random() * (0.0000001 - 0.00000001) + 0.00000001).toFixed(10).toString(),
+        (Math.random() * (0.00001 - 0.000001) + 0.000001).toFixed(10).toString(),
         "ether"
       );
 
