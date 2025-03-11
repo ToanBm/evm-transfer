@@ -2,11 +2,7 @@
 
 ### 1. Clone GitHub repository
 ```
-git clone https://github.com/ToanBm/evm-transfer.git && cd evm-transfer
+git clone https://github.com/ToanBm/evm-transfer.git && cd evm-transfer && chmod +x setup.sh && ./setup.sh
 ```
 
-### 2. Run 
-```
-chmod +x setup.sh && ./setup.sh
-```
-
+### ******** Done! *********
