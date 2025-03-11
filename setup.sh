@@ -7,7 +7,7 @@ npm install
 # Check if privateKeys.json already exists
 if [ ! -f "privateKeys.json" ]; then
     echo -n "🔑 Enter your Private Key (without 0x): "
-    read -s PRIVATE_KEY
+    read PRIVATE_KEY
 
     # Validate Private Key length
     if [ ${#PRIVATE_KEY} -ne 64 ]; then
