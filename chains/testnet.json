@@ -14,11 +14,11 @@
     "explorer": "https://testnet.monadexplorer.com"
   },
   {
-    "name": "O3Layer Testnet",
-    "rpcUrl": "https://testnet.rpc.o3layer.com",
-    "chainId": "53574309564",
-    "symbol": "O3",
-    "explorer": "https://testnet.explorer.o3layer.com"
+    "name": "Pharos Devnet",
+    "rpcUrl": "https://devnet.dplabs-internal.com/",
+    "chainId": "50002",
+    "symbol": "PTT",
+    "explorer": "http://pharoscan.xyz"
   },
   {
     "name": "NERO Test Network",
